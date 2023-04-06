@@ -20,7 +20,6 @@ class HomePage extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            iconTheme: IconThemeData(color: Sabitler.mainColor2NoOpacity),
             flexibleSpace: FlexibleSpaceBar(
               expandedTitleScale: 1.7,
               collapseMode: CollapseMode.parallax,
@@ -37,7 +36,7 @@ class HomePage extends StatelessWidget {
                   fit: BoxFit.fitWidth),
             ),
             expandedHeight: 200,
-            backgroundColor: Sabitler.mainColor2NoOpacity,
+            backgroundColor: Sabitler.mainColor2,
             pinned: true,
             primary: true,
             elevation: 4,
@@ -83,7 +82,7 @@ class _Articles extends ConsumerWidget {
                       height: MediaQuery.of(context).size.height * 0.14,
                       padding: const EdgeInsets.all(5),
                       decoration: BoxDecoration(
-                          color: Sabitler.articleColor.withOpacity(0.8),
+                          color: const Color(0xffbebebe).withOpacity(0.85),
                           borderRadius: const BorderRadius.only(
                               bottomLeft: Radius.circular(15),
                               bottomRight: Radius.circular(15))),

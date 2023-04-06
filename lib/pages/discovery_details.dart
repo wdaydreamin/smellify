@@ -18,12 +18,12 @@ class DiscoveryDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Sabitler.mainColor2NoOpacity,
+      backgroundColor: Sabitler.mainColor2,
       extendBodyBehindAppBar: true,
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-            iconTheme: IconThemeData(color: Sabitler.mainColor),
+            iconTheme: const IconThemeData(color: Sabitler.mainColor),
             flexibleSpace: FlexibleSpaceBar(
               expandedTitleScale: 1.5,
               collapseMode: CollapseMode.parallax,
@@ -49,7 +49,7 @@ class DiscoveryDetails extends StatelessWidget {
               ),
             ),
             expandedHeight: 180,
-            backgroundColor: Sabitler.mainColor2NoOpacity,
+            backgroundColor: Sabitler.mainColor2,
             pinned: true,
             primary: true,
             elevation: 4,
@@ -119,7 +119,7 @@ class DiscoveryDetails extends StatelessWidget {
                                       style: GoogleFonts.unna(
                                           textStyle: const TextStyle(
                                               fontSize: 20,
-                                              fontWeight: FontWeight.w500,
+                                              fontWeight: FontWeight.w400,
                                               color: Colors.white),
                                           fontStyle: FontStyle.italic,
                                           shadows: [

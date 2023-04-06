@@ -14,10 +14,10 @@ class AnArticle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width * 1,
-      height: MediaQuery.of(context).size.height * 0.85,
+      height: MediaQuery.of(context).size.height * 0.95,
       padding: const EdgeInsets.all(15),
       decoration: BoxDecoration(
-          color: Sabitler.articleColor.withOpacity(0.85),
+          color: const Color(0xffbebebe).withOpacity(0.85),
           borderRadius: BorderRadius.circular(20)),
       child: SingleChildScrollView(
         child: Column(
@@ -26,72 +26,72 @@ class AnArticle extends StatelessWidget {
               article.title,
               textAlign: TextAlign.center,
               style: GoogleFonts.unna(
-                  textStyle: Sabitler.getArticleTitleTextStyle()),
+                  textStyle: Sabitler.getArticleInsideTitleTextStyle()),
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 12),
             Text(
               article.subtitle,
               style: GoogleFonts.unna(
-                  textStyle: Sabitler.getArticleSubtitleTextStyle()),
+                  textStyle: Sabitler.getArticleInsideSubtitleTextStyle()),
             ),
             const SizedBox(
-              height: 10,
+              height: 12,
             ),
             TextContainer(
                 text: article.question1 ?? '',
-                style: GoogleFonts.unna(
-                    textStyle: Sabitler.getArticleTitleTextStyle())),
+                style: GoogleFonts.sourceSansPro(
+                    textStyle: Sabitler.getArticleInsideSubtitle2TextStyle())),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             Text(
               article.body1,
               style:
-                  GoogleFonts.unna(textStyle: Sabitler.getArticleTextStyle()),
+                  GoogleFonts.sourceSansPro(textStyle: Sabitler.getArticleTextStyle()),
             ),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             TextContainer(
                 text: article.question2 ?? '',
-                style: GoogleFonts.unna(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getArticleTitleTextStyle())),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             Text(article.body2,
-                style: GoogleFonts.unna(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getArticleTextStyle())),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             TextContainer(
               text: article.question3 ?? '',
-              style: GoogleFonts.unna(
+              style: GoogleFonts.sourceSansPro(
                   textStyle: Sabitler.getArticleTitleTextStyle()),
             ),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             Text(article.body3,
-                style: GoogleFonts.unna(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getArticleTextStyle())),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             TextContainer(
                 text: article.body4 ?? '',
-                style: GoogleFonts.unna(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getArticleTextStyle())),
             const SizedBox(
-              height: 5,
+              height: 8,
             ),
             const SizedBox(
-              height: 10,
+              height: 16,
             ),
             TextContainer(
                 text: article.body5 ?? '',
-                style: GoogleFonts.unna(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getArticleTextStyle())),
             Column(children: [
               CustomTag(
@@ -106,7 +106,7 @@ class AnArticle extends StatelessWidget {
                   ])
             ]),
             const SizedBox(
-              height: 10,
+              height: 16,
             ),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(

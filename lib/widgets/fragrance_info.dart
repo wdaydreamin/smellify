@@ -7,7 +7,6 @@ class FragranceInfo extends StatelessWidget {
   const FragranceInfo({Key? key, required this.fragranceDetail})
       : super(key: key);
   final DetailModel fragranceDetail;
-  
 
   @override
   Widget build(BuildContext context) {
@@ -22,55 +21,72 @@ class FragranceInfo extends StatelessWidget {
         ),
         child: SingleChildScrollView(
           child: Column(
+          
             children: [
-              Text(
-                'ÜRÜN',
-                style: Sabitler.getFragranceArticleTitle(),
+              Container(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  '\t ÜRÜN',
+                  style: Sabitler.getFragranceArticleTitle(),
+                ),
               ),
+              const SizedBox(height: 8),
               Text(
                 fragranceDetail.product!,
-                style: GoogleFonts.plusJakartaSans(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getFragranceArticleTS(),
-                    color: const Color(0xffe1bd7c)),
+                    color:Colors.white),
               ),
               const SizedBox(
                 height: 10,
               ),
-              Text(
-                'NOTALAR',
-                style: Sabitler.getFragranceArticleTitle(),
+              Container(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  '\t NOTALAR',
+                  style: Sabitler.getFragranceArticleTitle(),
+                ),
               ),
+              const SizedBox(height: 8),
               Text(
                 fragranceDetail.contens!,
-                style: GoogleFonts.plusJakartaSans(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getFragranceArticleTS(),
-                    color: const Color(0xffe1bd7c)),
+                    color: Colors.white),
               ),
               const SizedBox(
                 height: 10,
               ),
-              Text(
-                'TUTKU',
-                style: Sabitler.getFragranceArticleTitle(),
+              Container(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  '\t TUTKU',
+                  style: Sabitler.getFragranceArticleTitle(),
+                ),
               ),
+              const SizedBox(height: 8),
               Text(
                 fragranceDetail.inspiration!,
-                style: GoogleFonts.plusJakartaSans(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getFragranceArticleTS(),
-                    color: const Color(0xffe1bd7c)),
+                    color: Colors.white),
               ),
               const SizedBox(
                 height: 10,
               ),
-              Text(
-                'PARFÜM SANATI',
-                style: Sabitler.getFragranceArticleTitle(),
+              Container(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  '\t PARFÜM SANATI',
+                  style: Sabitler.getFragranceArticleTitle(),
+                ),
               ),
+              const SizedBox(height: 8),
               Text(
                 fragranceDetail.usage!,
-                style: GoogleFonts.plusJakartaSans(
+                style: GoogleFonts.sourceSansPro(
                     textStyle: Sabitler.getFragranceArticleTS(),
-                    color: const Color(0xffe1bd7c)),
+                    color: Colors.white),
               ),
             ],
           ),

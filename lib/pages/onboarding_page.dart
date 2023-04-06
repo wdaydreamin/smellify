@@ -24,7 +24,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
     required subtitle,
   }) =>
       Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: (LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
@@ -41,25 +41,25 @@ class _OnboardingPageState extends State<OnboardingPage> {
               ),
             ),
             const SizedBox(
-              height: 10,
+              height: 12,
             ),
             Text(
               title,
-              style:
-                  GoogleFonts.poppins(textStyle: Sabitler.getTitleTextStyle()),
+              style: GoogleFonts.playfairDisplay(
+                  textStyle: Sabitler.getTitleTextStyle()),
             ),
             const SizedBox(
-              height: 10,
+              height: 12,
             ),
             Text(
               subtitle,
-              style: GoogleFonts.poppins(
+              style: GoogleFonts.sourceSansPro(
                 textStyle: Sabitler.getSubtitleTextStyle(),
               ),
               textAlign: TextAlign.center,
             ),
             const SizedBox(
-              height: 20,
+              height: 24,
             )
           ],
         ),
@@ -69,7 +69,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.only(bottom: 60),
+        padding: const EdgeInsets.only(bottom: 80),
         child: PageView(
           controller: _controller,
           onPageChanged: (index) {
@@ -102,7 +102,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                     borderRadius: BorderRadius.circular(0),
                   ),
                   backgroundColor: Sabitler.mainColor,
-                  minimumSize: const Size.fromHeight(60)),
+                  minimumSize: const Size.fromHeight(90)),
               onPressed: () async {
                 final prefs = await SharedPreferences.getInstance();
                 prefs.setBool('showHome', true);
@@ -117,14 +117,11 @@ class _OnboardingPageState extends State<OnboardingPage> {
                     textStyle: const TextStyle(
                         color: Colors.white,
                         fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        shadows: [
-                      Shadow(color: Colors.black, blurRadius: 0.4)
-                    ])),
+                        fontWeight: FontWeight.bold,)),
               ))
           : Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              height: 60,
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              height: 80,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -158,10 +155,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           curve: Curves.easeInOut),
                       child: Text('SONRAKİ',
                           style: GoogleFonts.poppins(
-                              textStyle: Sabitler.getNextAndSkipTextStyle(),
-                              shadows: const [
-                                Shadow(color: Colors.black, blurRadius: 0.4)
-                              ])))
+                            textStyle: Sabitler.getNextAndSkipTextStyle(),
+                          )))
                 ],
               ),
             ),

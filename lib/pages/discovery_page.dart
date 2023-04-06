@@ -33,7 +33,7 @@ class DiscoverPage extends StatelessWidget {
                     style: GoogleFonts.unna(
                         textStyle: Sabitler.getSliverAppbarTextStyle(),
                         shadows: [
-                          const Shadow(color: Colors.black, blurRadius: 4)
+                          const Shadow(color: Colors.black, blurRadius: 2)
                         ]),
                   ),
                   background: Container(
@@ -47,7 +47,7 @@ class DiscoverPage extends StatelessWidget {
                   ),
                 ),
                 expandedHeight: 200,
-                backgroundColor: Sabitler.mainColor2NoOpacity,
+                backgroundColor: Sabitler.mainColor2,
                 pinned: true,
                 primary: true,
                 elevation: 4,
@@ -60,13 +60,11 @@ class DiscoverPage extends StatelessWidget {
 }
 
 Widget buildPreferences() => const SliverToBoxAdapter(
-      child: _Preferences(
-
-      ),
+      child: _Preferences(),
     );
 
 class _Preferences extends ConsumerWidget {
-   const _Preferences({
+  const _Preferences({
     Key? key,
   }) : super(key: key);
 
@@ -88,7 +86,7 @@ class _Preferences extends ConsumerWidget {
                       preferencesModel: preferencesModel[index],
                     )));
           },
-          child: ImageContainer(
+          child: ImageContainer( 
             height: MediaQuery.of(context).size.height * 0.35,
             width: double.infinity,
             margin: const EdgeInsets.only(left: 10, right: 10, bottom: 10),
@@ -108,7 +106,8 @@ class _Preferences extends ConsumerWidget {
                             Colors.black.withOpacity(0.9),
                             Colors.transparent
                           ]),
-                      borderRadius: const BorderRadius.all(Radius.circular(10))),
+                      borderRadius:
+                          const BorderRadius.all(Radius.circular(10))),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [

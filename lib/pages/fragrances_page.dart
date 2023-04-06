@@ -34,10 +34,9 @@ class Fragrance extends StatelessWidget {
           'Kokular',
           style: GoogleFonts.unna(
               textStyle: Sabitler.getAppbarTextStyle(),
-              shadows: [const Shadow(color: Colors.black, blurRadius: 4)]),
+              color: Sabitler.mainColor),
         ),
         backgroundColor: Sabitler.mainColor2,
-        elevation: 1,
       ),
     );
   }
@@ -60,10 +59,12 @@ class _FragList extends ConsumerWidget {
                   MenDetails(fragranceDetail: fragranceDetail[index])));
         },
         child: Card(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            elevation: 6,
-            color: const Color(0xff6f6fac).withOpacity(0.8),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+                side:
+                    const BorderSide(strokeAlign: 2, color: Color(0xff899AAB))),
+            elevation: 2,
+            color: const Color(0xffBFB2FF),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -83,22 +84,19 @@ class _FragList extends ConsumerWidget {
                 AspectRatio(
                   aspectRatio: 4 / 1,
                   child: Container(
-                    padding: const EdgeInsets.all(6),
                     child: (AutoSizeText(fragranceDetail[index].fragranceName!,
                         textAlign: TextAlign.center,
                         maxLines: 2,
                         style: Sabitler.getFragranceTitleTS())),
                   ),
                 ),
+                const Spacer(flex: 2),
                 AspectRatio(
-                  aspectRatio: 4.5 / 1,
-                  child: Container(
-                    margin: const EdgeInsets.all(5),
-                    child: AutoSizeText(
-                      fragranceDetail[index].productBrand!,
-                      textAlign: TextAlign.center,
-                      style: Sabitler.getFragranceTitleTS(),
-                    ),
+                  aspectRatio: 6 / 1,
+                  child: AutoSizeText(
+                    fragranceDetail[index].productBrand!,
+                    textAlign: TextAlign.center,
+                    style: Sabitler.getProductBrandTitleTS(),
                   ),
                 ),
               ],

@@ -29,13 +29,13 @@ final articleProvider = Provider<List<Article>>((ref) => [
         title: 'Kokular neden anıları hatırlatır?',
         subtitle:
             '\t Bildik bir koku çocukluk anılarımıza kadar götürür bizi. Beynimizde neler oluyor da bunları düşünüyoruz?',
-        question1: 'Karmaşık Duygular',
+        question1: '\t Karmaşık Duygular',
         body1:
-            '\t Koku alma duyusu en eski duyudur; havadaki ve sudaki kimyasal maddeleri algılamak için gelişen, bakterilerin bile sahip olduğu ilkel duyulara kadar uzanır. Görme, işitme ve hatta dokunma duyusundan önce, canlıların etraflarındaki kimyasallara tepki verebilmesi için koku alma duyusu gelişmiştir önce.Görmek, insan gözündeki dört ışık duyargası ile mümkündür. Buradaki alıcı işlevi gören hücreler, ışığı beynin anlayacağı dilden elektrokimyasal sinyallere dönüştürür. Dokunma duyusu ise en az dört tür basınç ve ayrıca sıcak, soğuk ve acıyı algılayan çeşitli alıcılara bağlıdır.Fakat bunlar koku alma duyusunun yanında gölgede kalır. Çünkü insanda koku almayı sağlayan 1000’den fazla alıcı vardır. Bunlar yaşadığımız sürece yenilenir ve alışkın olduğumuz kokulara göre değişir. Bu karmaşık yapı çok sayıda farklı kokuyu birbirinden ayırmamızı sağlar.Ancak ayırabildiğimiz kokuların hepsi için bir isim bulamayız. Belki de hakkında en az konuştuğumuz duyumuz koku almadır. Bir şeyin nasıl göründüğünü ya da duyulduğunu iyi tarif edebilir, ama iş kokuya gelince onu bağlantı kurduğumuz şeyle ifade etmeye çalışırız; örneğin, çiçek gibi, ıslak köpek gibi, vs. olarak tanımlarız. Yani kokuyu, o kokuyu yaratan nesneyle ifade ederiz: “Hindistan cevizi”, “taze ekmek” gibi.',
-        question2: 'Hafıza ve Koku',
+            '\t Koku alma duyusu en eski duyudur; havadaki ve sudaki kimyasal maddeleri algılamak için gelişen, bakterilerin bile sahip olduğu ilkel duyulara kadar uzanır. Görme, işitme ve hatta dokunma duyusundan önce, canlıların etraflarındaki kimyasallara tepki verebilmesi için koku alma duyusu gelişmiştir önce. Görmek, insan gözündeki dört ışık duyargası ile mümkündür. Buradaki alıcı işlevi gören hücreler, ışığı beynin anlayacağı dilden elektrokimyasal sinyallere dönüştürür. Dokunma duyusu ise en az dört tür basınç ve ayrıca sıcak, soğuk ve acıyı algılayan çeşitli alıcılara bağlıdır. Fakat bunlar koku alma duyusunun yanında gölgede kalır. Çünkü insanda koku almayı sağlayan 1000’den fazla alıcı vardır. Bunlar yaşadığımız sürece yenilenir ve alışkın olduğumuz kokulara göre değişir. Bu karmaşık yapı çok sayıda farklı kokuyu birbirinden ayırmamızı sağlar. Ancak ayırabildiğimiz kokuların hepsi için bir isim bulamayız. Belki de hakkında en az konuştuğumuz duyumuz koku almadır. Bir şeyin nasıl göründüğünü ya da duyulduğunu iyi tarif edebilir, ama iş kokuya gelince onu bağlantı kurduğumuz şeyle ifade etmeye çalışırız; örneğin, çiçek gibi, ıslak köpek gibi, vs. olarak tanımlarız. Yani kokuyu, o kokuyu yaratan nesneyle ifade ederiz: “Hindistan cevizi”, “taze ekmek” gibi.',
+        question2: '\t Hafıza ve Koku',
         body2:
             '\t Bu bilgileri tekrarladıktan sonra, şimdi de önemli ipuçları neler diye bakalım? Beyinde kokuları işleme koyan ve “koku alma soğanı” olarak adlandırılan bölge, beyin çıkıntısı (hipokampüs) ile yan yanadır. Denizatı şeklindeki bu soğan, beyin zarından (korteks) gelen tüm bilgilerin toplandığı yerdir. Nörologlar hipokampüsün yeni olaylar için hafıza yaratmada önemli bir işlevi olduğunu tespit etti.Beyninin bu bölgesi hasara uğrayan kişiler hatırlamada zorluk çeker. Bisiklet sürme gibi yeni becerileri ve kişilerin isimleri gibi yeni bilgileri öğrenseler de bunlara dair hafıza oluşturamazlar. Bu aralıklı “epizodik hafıza”, işte benim büyükannemin evine yaptığımız ziyareti hatırlarken söz konusu olan hafızanın ta kendisi. Koku alma soğanı, yani kokunun beyindeki yeri, bu tür hafızanın kaynağı olan hipokampüsün yanında olduğu için kokular bazı anıları çağrıştırıyor diyebiliriz.',
-        question3: 'Derinlere Dalmak',
+        question3: '\t Derinlere Dalmak',
         body3:
             '\t Fakat bu ipucu ne kadar güçlü olsa da dolaylı ve duruma bağlıdır aslında. O yüzden ikinci bir ipucu sunmak gerekir. Duyular arasında kokunun özgün özelliği doğrudan beynin derinliklerine gitmesidir. Oysa örneğin görme ve işitme duyuları gözde ve kulakta, yani ilgili organlarda başlar ve beynin diğer bölgelerine geçmeden önce, aktarma merkezi işlevi gören talamusa, yani ara beynin orta bölümüne geçer.Koku alma duyusu ise talamusa uğramadan doğrudan koku alma soğanına gider. Talamusta duraklamanın diğer duyular açısından nasıl bir işlev gördüğünü bilmiyoruz; ama diğerlerinin oluşturduğu sinyallerin beyindeki işlem merkezinden “daha uzakta” olduğunu söyleyebiliriz.Kokuları kelimelere dökmenin zorluğu bundan kaynaklı olabilir mi? Ya da derinlerde saklı kalmış anıların canlanmasını tetikleyebilir mi? Araştırmalar, olay ve olguları kelimelerle ifade etmenin hafızaya yararı olduğunu gösteriyor; fakat bu aynı zamanda konuyla ilgili duyguların azalmasına da yol açıyor. Anılarımızdan söz ederken olayı ve onun yarattığı deneyimi de hatırlamaya başlarız.',
         body4:
@@ -72,13 +72,13 @@ final articleProvider = Provider<List<Article>>((ref) => [
         title: 'Parfüm tarihiyle ilgili 3 şey',
         subtitle:
             '\t Kokuların dünyası gerçekten de bizi oradan oraya taşıyabilir ve kim olduğumuzla ilgili hikayeler anlatabilir. Ve hala parfümlerle ilgili ortaya çıkmamış bir sürü ilginç bilgi var. Haydi, zamanda geriye gidelim ve her şeyin başladığı yeri keşfedelim!',
-        question1: '1. Parfümün Kökeni Neresidir?',
+        question1: '\t 1. Parfümün Kökeni Neresidir?',
         body1:
             '\t İlk parfümün kökeniyle ilgili birçok teori var ama dünyanın ilk parfüm üreticileri genelde Mezopotamyalılar, Persler ve Mısırlılar olarak görülüyor. Dünyada ilk parfüm üreten insan, Tapputi adında kimyacı bir kadınmış ve ilk kokuyu Mezopotamya, Babil’de mürrüsafi, yağlar ve çiçeklerden üretmiş. Mısır’da, yaklaşık 4000 yıl önce, insanlar parfümleri dini törenlerden cenazelere ve hatta günlük hayatta bile kullanıyorlarmış. Parfüm, güneş tanrısı Ra’nın teri olarak görülürmüş ve bu yüzden de parfüm sürmek kutsal bir eylemmiş. Hatta Mısırlıların, Nefertum adında başında nilüferlerden oluşan tacı taşıyan bir tanrıçaları bile vardı, ki nilüferler, şu anda bile en çok kullanılan parfüm içeriklerindendir. Persliler de parfüme çok değer verirdi ve kokular genelde politik statünün sembolü sayılırdı. O kadar çok parfüm kullanırlardı ki, kralların parfüm şişeleriyle resmedilmesi normal karşılanırdı! Ne zaman ki Yunanlılar ve Romalılar Acemistan’ı (İran) ele geçirdi, o zamandan itibaren parfüm bir sanat olarak görülmeye başlandı. Yavaşça dünyaya yayıldı ve 1190 yılında Paris’e geldiğinde ticari olarak gelişmeye başladı ve şu andaki dev sektör halini aldı.',
-        question2: '2. Dünyanın İlk Parfümü Neydi?',
+        question2: '\t 2. Dünyanın İlk Parfümü Neydi?',
         body2:
             '\t Parfümlerin anlamı ve statüleri her ülkede farklı gelişmiştir, dolayısıyla bildiğimiz anlamda ilk modern parfüm üretilmeden önce çok farklı tarzda kokular parfüm olarak adlandırılmıştır. Fakat bildiğimiz anlamdaki parfümü, yani alkol solüsyonunda aromalı yağlarla oluşturulan parfümü asıl Macarlar bulmuştur. Özel kişisel kullanım için üretilen ilk parfüm, Macar Kraliçesi Elizabeth için geliştirilmiştir ve Avrupa’da Macar Suyu olarak bilinir. Koku ağırlıklı olarak biberiye ve taze kekik gibi doğal aromalar içermekteydi.',
-        question3: '3. Dünyanın En Pahalı Bileşenleri Hangileridir?',
+        question3: '\t 3. Dünyanın En Pahalı Bileşenleri Hangileridir?',
         body3:
             "\t Hiç düşündüğünüz gibi olmayabilir! En iyi ve en pahalı parfümler mutlak yağlardan, yani bitkilerden veya belirli çiçeklerden elde edilen konsantre, yüksek oranda aromatik ve yağlı karışımlardan oluşur. Doğal maddeler, genellikle çok nadir olduklarından, elde edilmesi çok zor olduğundan veya kanunlarla korunduklarından, en pahalı olanlardır. Dünyanın en pahalı içerikleri yasemin, Bulgar gülü, ud ağacı, misk ve süsendir. Dünyanın en pahalı içeriği ise, balinalarının sindirim sisteminde oluşan bir madde olan Ambergris'tir. Bir içeriğin fiyatının yüksek olmasının sebebi, doğal ud yağı gibi doğal kaynaklarının tükenmesi veya Madagaskar'daki ylang ylang gibi üretiminin mevsim dışı olması olabilir.",
         references: 'Rebecca Frisk Bengtsson, Oriflame',
@@ -93,13 +93,13 @@ final articleProvider = Provider<List<Article>>((ref) => [
         title: 'Kokular Modumuzu Nasıl Değiştirir?',
         subtitle:
             '\t Söz konusu ruh halimizi değiştirmek olduğunda görünümümüze dikkat etmek dışında yapabileceğimiz şeyler var. Modumuza ya da yakalamak istediğimiz ruh haline uygun kokular tercih etmek bu konuda oldukça etkili olabiliyor. Örneğin kokusunu aldığımız bir aroma bizi farklı bir mekana veya zamana götürebilir. Modumuzu yükseltebilir ya da nahoş anıları canlandırabilir. Peki, kokuların ruh halimiz üzerindeki bu etkisinden günlük hayatta nasıl faydalanabiliriz?',
-        question1: 'Mutluluk Veren Kokular',
+        question1: '\t Mutluluk Veren Kokular',
         body1:
             '\t Vanilya ve gül kokuları başta olmak üzere bazı kokular herkes tarafından beğenilir. Bu hoş kokular bizi mutlu etmek ve moralimizi düzeltmekle kalmaz, aynı zamanda karar alma mekanizmamızı da etkiler. Araştırmalar, güzel kokuların bizi daha kolay para harcamaya yönelttiğini işaret ediyor. Demek ki mutluluğun bir bedeli varmış.',
-        question2: 'Konstrasyon Sağlayan Kokular',
+        question2: '\t Konstrasyon Sağlayan Kokular',
         body2:
             '\t Nane ve limon gibi keskin ve ferah kokular ise zihnimizi uyarma etkisine sahip olabiliyor. Bu ve benzeri kokular dikkatimizi yoğunlaştırmamızı sağlayarak iş performansımıza katkıda bulunabiliyorlar.',
-        question3: 'Keyif Veren Kokular',
+        question3: '\t Keyif Veren Kokular',
         body3:
             '\t Oda kokuları, genellikle koyu ve zengin aromatik notalarıyla, rahatlatıcı ve keyif verici özelliğe sahiptir. Bir odayı daha geniş ve ferah hale getirmek için salatalık, aloe vera veya narenciye kokuları doğru bir seçim olabilir. Buna karşılık baharatlı, odunsu ve tatlı kokular ise tam tersi etkiye sahiptir. ',
         references: 'Sanna Franklin, Oriflame',
@@ -113,7 +113,7 @@ final articleProvider = Provider<List<Article>>((ref) => [
 final fragranceProvider = Provider<List<DetailModel>>((ref) => [
       const DetailModel(
         id: '1',
-        fragranceName: 'Bleu De Chanel',
+        fragranceName: 'Bleu De\n Chanel',
         backgroundImage: 'assets/images/bleudechaneledp.jpg',
         product:
             "   Aromatik-odunsu karakteri ve dikkat çeken kokusu ile özgür erkeğe övgü. Mavinin gizemli ve koyu bir tonundaki şişesiyle zamandan bağımsız bir parfüm.Zarif kokusu ile BLEU DE CHANEL'in eau de parfum versiyonu, kararlılığı simgeleyen bir karakteri ortaya çıkarır.",
@@ -131,7 +131,7 @@ final fragranceProvider = Provider<List<DetailModel>>((ref) => [
       const DetailModel(
         id: '2',
         backgroundImage: 'assets/images/sauvage.jpg',
-        fragranceName: 'Sauvage',
+        fragranceName: 'Dior \nSauvage',
         product:
             "   Sauvage'ın güçlü tazeliği, yeni duygusal ve gizemli yönlerini ortaya çıkarıyor. Sulu Bergamot, duyusallığı arttırmak için baharatlı notaları davet ediyor; Ambroksan ve Papua Yeni Gine Vanilya aromasıyla etrafı sarılıyor. Dior Parfüm Yaratıcısı, François Demachy, ilhamını çöl alacakaranlığının büyülü saatinden alıyor. Gecenin soğuğu çölün yakıcılığıyla bu eşsiz kokuda buluşuyor.",
         inspiration:
@@ -165,7 +165,7 @@ final fragranceProvider = Provider<List<DetailModel>>((ref) => [
       const DetailModel(
         id: '4',
         backgroundImage: 'assets/images/tomford.jpg',
-        fragranceName: 'Black Orchid',
+        fragranceName: 'Black \nOrchid',
         product:
             '   Baharatlı, Oryantal Lüks ve sofistike bir koku olan Tom Ford Black Orchid, zengin koku ahenkleri, siyah orkideler ve baharattan meydana gelen cazibeli iksiriyle tenin doğal kokusuna eşlik ediyor.',
         inspiration:
@@ -199,7 +199,7 @@ final fragranceProvider = Provider<List<DetailModel>>((ref) => [
       const DetailModel(
         id: '6',
         backgroundImage: 'assets/images/versace.jpg',
-        fragranceName: 'Versace Eros',
+        fragranceName: 'Versace \nEros',
         product:
             '   Versace, erkekler için yeni bir koku piyasaya sürüyor - Yunan mitolojisinden ilham alan ve Yunan mitolojisiyle derinden bağlantılı olan "Eros".',
         inspiration:
@@ -233,7 +233,7 @@ final fragranceProvider = Provider<List<DetailModel>>((ref) => [
       const DetailModel(
         id: '8',
         backgroundImage: 'assets/images/bleudechanelparfum.jpg',
-        fragranceName: 'Blue De Chanel - Parfum',
+        fragranceName: 'Blue De Chanel  Parfum',
         product:
             '   Aromatik-odunsu karakteri ve dikkat çeken kokusu ile özgür erkeğe övgü. Mavinin gizemli ve koyu bir tonundaki şişesiyle zamandan bağımsız bir parfüm. BLEU DE CHANEL Parfum, saf ve derin bir karaktere sahip başarılı bir kompozisyondur. Hedeflerine ulaşmayı ve kendine güveni vurgulayan yoğun erkeksi bir imza.',
         inspiration:

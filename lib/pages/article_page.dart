@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_koku_app/models/article_model.dart';
 import 'package:flutter_koku_app/widgets/an_article.dart';
 import 'package:flutter_koku_app/widgets/article_container.dart';
-import '../constans/app_constans.dart';
 
 class ArticlePage extends StatefulWidget {
   const ArticlePage({Key? key}) : super(key: key);
@@ -23,8 +22,8 @@ class _ArticlePageState extends State<ArticlePage> {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          iconTheme: IconThemeData(
-            color: Sabitler.mainColor,
+          iconTheme: const IconThemeData(
+            color: Color(0xffDBBEFF),
             opacity: 1,
           ),
           backgroundColor: Colors.transparent,

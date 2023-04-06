@@ -9,9 +9,13 @@ class TextContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (text != '') {
-      return Text(
-        text,
-        style: style,
+      return Container(
+        alignment: Alignment.centerLeft,
+
+        child: Text(
+          text,
+          style: style,
+        ),
       );
     } else {
       return const SizedBox();

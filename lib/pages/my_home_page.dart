@@ -47,6 +47,7 @@ class _HomePageState extends State<MyHomePage> {
         children: allPages,
       ),
       bottomNavigationBar: GNav(
+        
           onTabChange: (int value) {
             setState(() {
               currentPage = value;
@@ -56,10 +57,10 @@ class _HomePageState extends State<MyHomePage> {
             });
           },
           activeColor: Sabitler.mainColor,
-          color: Colors.white,
+          color: Colors.black54,
           backgroundColor: Sabitler.mainColor2,
           textStyle:
-              GoogleFonts.poppins(textStyle: Sabitler.getBottomTextStyle()),
+              GoogleFonts.sourceSansPro(textStyle: Sabitler.getBottomTextStyle()),
           padding: const EdgeInsets.all(18),
           gap: 8,
           tabs: const [

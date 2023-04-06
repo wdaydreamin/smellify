@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_koku_app/models/fragrance_model.dart';
 import 'package:flutter_koku_app/widgets/fragrance_info.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MenDetails extends StatelessWidget {
   final DetailModel fragranceDetail;
@@ -103,21 +104,23 @@ class _FragranceAnimationsState extends State<FragranceAnimations>
                       opacity: animation,
                       child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                              minimumSize: const Size(250, 50),
-                              shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20)),
-                              elevation: 1,
-                              backgroundColor: Colors.white.withOpacity(0.6)),
+                            minimumSize: const Size(250, 50),
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(16),
+                                side: const BorderSide(
+                                    color: Color(0xff899AAB), width: 2)),
+                            elevation: 1,
+                            backgroundColor: Colors.white.withOpacity(0.6),
+                          ),
                           onPressed: (() => setState(() => isClicked = true)),
-                          child: const Text(
-                            'DETAYLAR',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                              fontWeight: FontWeight.w700,
-                              fontFamily: 'Chanel',
-                            ),
-                          )))),
+                          child: Text('DETAYLAR',
+                              style: GoogleFonts.sourceSansPro(
+                                textStyle: const TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ))))),
               secondChild:
                   _AnFragrance(fragranceDetail: widget.fragranceDetail))
         ],

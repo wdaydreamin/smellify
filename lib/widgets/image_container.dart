@@ -8,19 +8,19 @@ class ImageContainer extends StatelessWidget {
     required this.imageAsset,
     this.padding,
     this.margin,
+    this.decoration,
     this.borderRadius = 10,
     this.child,
-
   }) : super(key: key);
 
   final double width;
   final double height;
   final String imageAsset;
+  final BoxDecoration? decoration;
   final EdgeInsets? padding;
   final EdgeInsets? margin;
   final double borderRadius;
   final Widget? child;
-
 
   @override
   Widget build(BuildContext context) {

@@ -17,7 +17,7 @@ Future main() async {
   final showHome = prefs.getBool('showHome') ?? false;
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     systemNavigationBarColor: Sabitler.mainColor2,
     statusBarIconBrightness: Brightness.light,
   ));

@@ -19,7 +19,7 @@ class PreferencesDetail extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          iconTheme: IconThemeData(color: Sabitler.mainColor),
+          iconTheme: const IconThemeData(color: Sabitler.mainColor),
           backgroundColor: Colors.transparent,
           elevation: 0,
         ),
@@ -114,22 +114,22 @@ class _PreferencesAnimationsState extends State<PreferencesAnimations>
                         widget.preferencesPhotos.titletwo!,
                         maxLines: 3,
                         textAlign: TextAlign.center,
-                        style: GoogleFonts.unna(
+                        style: GoogleFonts.playfairDisplay(
                             textStyle: TextStyle(
                                 fontSize: 25,
-                                fontWeight: FontWeight.w600,
+                                fontWeight: FontWeight.w500,
                                 color: textColor),
                             shadows: [
                               const Shadow(color: Colors.black, blurRadius: 4)
                             ]),
                       ),
-                      const SizedBox(height: 10),
+                      const SizedBox(height: 20),
                       Text(
                         widget.preferencesPhotos.body ?? '',
-                        style: GoogleFonts.unna(
+                        style: GoogleFonts.sourceSansPro(
                             textStyle: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.w500,
+                                fontSize: 16,
+                                fontWeight: FontWeight.w400,
                                 color: textColor),
                             shadows: [
                               const Shadow(color: Colors.black, blurRadius: 4)
